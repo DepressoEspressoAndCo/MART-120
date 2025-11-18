@@ -1,5 +1,20 @@
-span{
-	color: white;
-	background-color: black;
 
+h3{
+	color: black;
+	font-weight: bold;
+}
+
+h4{
+	color: red;
+	font-weight: bold;
+}
+
+.ratClass{
+	color: white;
+	font-weight: bold;
+	background-color: red;
+}
+
+#ratID{
+	font-style: italic;
 }
