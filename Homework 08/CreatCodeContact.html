@@ -2,6 +2,36 @@
 	<head>
 		<title>Why do you even want to contact me?</title>
 		<link rel="stylesheet"  type="text/cc" href="CreatExternal.css">
+		<script>
+			function checkboxes()
+			{
+				var firstName = document.getElementById("fName").value;
+				var lastName = document.getElementById("lName").value;
+				var eMail = document.getElementById("email").value;
+				var bloodType = document.getElementId("bType").value;
+				if(firstName == "")
+				{
+					document.getElementById("fName").style.backgroundColor = "red";
+					document.getElementById("fName").focus();
+				}
+				if(lastName == "")
+				{
+					document.getElementById("lName").style.backgroundColor = "red";
+					document.getElementById("lName").focus();
+				}
+				if(eMail == "")
+				{
+					document.getElementById("email").style.backgroundColor = "red";
+					document.getElementById("email").focus();
+				}
+				if(bloodType == "")
+				{
+					document.getElementById("bType").style.backgroundColor = "red";
+					document.getElementById("bType").focus();
+				}
+			}
+		</script>
+
 		<style>
 			h3{
 				background-color:red;
@@ -22,7 +52,7 @@
 				Accept all terms and conditions including the lease of your soul?<br>
 				<input type="checkbox" name="yes" value="yes">Yes.<br>
 				<input type="checkbox" name="yes2" value="yes2">Second yes.<br>
-				<button id="mySubmit" type="submit">Submit</button>
+				<button id="mySubmit" type="submit" onclick='checkboxes();'>Submit</button>
 			</form>
 		<h5>Other Pages</h5>
 		<a href="CreatCodeCite.html" style="text-decoration: none; color: blue;">Homepage (Just in case you wanna review that tasty restaurant list.)<a/>
