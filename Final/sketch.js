@@ -709,7 +709,7 @@ function left2dbp()
   dbp(x7,y16);
   dbp(x7,y17);
   dbp(x7,y18);
-  dbp(x7,y19):
+  dbp(x7,y19);
   
   dbp(x8,y7);
   dbp(x8,y8);
